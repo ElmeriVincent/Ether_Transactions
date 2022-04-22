@@ -6,8 +6,8 @@ const App = () => {
       <div className="bg-gradient-to-t from-gray-800 via-gray-900 to-black">
         <Navbar />
         <Welcome />
+        <Services />
       </div>
-      <Services />
       <Transactions />
       <Footer />
     </div>
