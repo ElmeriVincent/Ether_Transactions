@@ -7,9 +7,9 @@ const App = () => {
         <Navbar />
         <Welcome />
         <Services />
+        <Transactions />
+        <Footer />
       </div>
-      <Transactions />
-      <Footer />
     </div>
   )
 }
