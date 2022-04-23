@@ -42,6 +42,10 @@ $ npm install
 $ npm run dev
 ```
 
+https://user-images.githubusercontent.com/77973084/164915295-fb799319-ec5c-4916-a5e0-00775f746c51.mp4
+
+
+
 ## Fork the repository
 If you want to contribute to this project make sure you fork it!
 
