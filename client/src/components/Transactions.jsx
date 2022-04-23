@@ -53,7 +53,7 @@ const Transactions = () => {
                 {currentAccount ? (
                     <h3 className="text-white text-3xl text-center my-2">Latest Transactions</h3>
                 ) : (
-                    <h3 className="text-white text-3xl text-center my-2">Connect your account to see latest chnages</h3>
+                    <h3 className="text-white text-3xl text-center my-2">Connect to your metamask wallet to see the latest transactions</h3>
                 )}
 
                 <div className="flex flex-wrap justify-center items-center mt-10">

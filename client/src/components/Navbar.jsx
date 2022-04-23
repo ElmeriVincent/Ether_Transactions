@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 
-import logo from '../../images/logo.png';
+//import logo from '../../images/logo.png';
 
 const NavbarItem = ({ title, classProps }) => {
     return (
@@ -18,32 +18,8 @@ const Navbar = () => {
 
     return (
         <nav className="w-full flex md:justify-center justify-between items-center p-4">
-            <div className="md:flex-[0.5] flex-initial justify-center items-center">
-                <img src={logo} alt="logo" className="h-8" />
-            </div>
-            <ul className="text-white md:flex hidden list-none flew-row justify-between items-center flex-initial">
-                {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
-                    <NavbarItem key={item + index} title={item} />
-                ))}
-                <li className="bg-violet-600 hover:bg-violet-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 py-2 px-7 mx-4 rounded-full cursor-pointer">
-                    Login
-                </li>
-            </ul>
-            <div className="flex relative">
-                {toggleMenu
-                    ? <AiOutlineClose fontSize={32} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(false)} />
-                    : <HiMenuAlt4 fontSize={32} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(true)} />}
-                {toggleMenu && (
-                    <ul
-                        className="z-10 fixed top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
-                                    flex flex-col justify-start items-end rounded-md bg-gray-500 text-white animate-slide-in">
-                        <li className="text-xl w-full my-2">
-                            <AiOutlineClose onClick={() => setToggleMenu(false)} />
-                        </li>
-                        {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
-                            <NavbarItem key={item + index} title={item} classProps="my-2 text-lg" />))}
-                    </ul>
-                )}
+            <div className="md:flex-[0.8] flex-initial justify-center items-center">
+                <h1 className="text-white text-2xl border-b-2 border-indigo-300 w-24">CONTRA</h1>
             </div>
         </nav>
     );

@@ -32,24 +32,24 @@ const Services = () => (
                 </p>
             </div>
 
-            <div className="flex-1 flex flex-col justify-start items-center">
+            <div className="flex-1 flex-col justify-start items-center">
                 <ServiceCard
                     color="bg-[#2952E3]"
-                    title="Security gurantee"
+                    title="Security Guarantee"
                     icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-                    subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+                    subtitle="Security is guaranteed. We always maintain privacy and security in our products."
                 />
                 <ServiceCard
                     color="bg-[#8945F8]"
-                    title="Best exchange rates"
+                    title="Exchange Rates"
                     icon={<BiSearchAlt fontSize={21} className="text-white" />}
-                    subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+                    subtitle="We try to offer the best exchange rates. We are always improving our services."
                 />
                 <ServiceCard
                     color="bg-[#F84550]"
-                    title="Fastest transactions"
+                    title="Transaction Speed"
                     icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-                    subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+                    subtitle="Transaction speed is effected by the amount of transactions made through metamask."
                 />
             </div>
         </div>

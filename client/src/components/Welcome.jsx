@@ -38,10 +38,10 @@ const Welcome = () => {
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
                 <div className="flex flex-1 justify-start flex-col mf:mr-10">
                     <h1 className="text-3xl sm:text-5xl text-white py-1">
-                        Send Crypto <br /> across the world
+                        Send Ethereum <br /> around the world
                     </h1>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-                        Explore the crypto world. Buy and sell cryptocurrencies easily on Krypt.
+                        Be part of the revolution and use Contra for your encrypted transactions.
                     </p>
 
                     {!currentAccount && (
@@ -92,7 +92,7 @@ const Welcome = () => {
                         </div>
                     </div>
 
-                    <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
+                    <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center rounded-xl blue-glassmorphism">
                         <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
                         <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
                         <Input placeholder="Keyword (GIF)" name="keyword" type="text" handleChange={handleChange} />
@@ -105,7 +105,7 @@ const Welcome = () => {
                             <button
                             type="button"
                             onClick={handleSubmit}
-                            className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] rounded-full cursor-pointer"
+                            className="text-gray-700 w-full mt-2 border-[2px] p-2 border-gray-400 bg-gradient-to-r from-indigo-300 to-purple-400 rounded-full cursor-pointer"
                             >
                                 Send Now!
                             </button>
