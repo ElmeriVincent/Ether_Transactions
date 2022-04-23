@@ -42,9 +42,16 @@ $ npm install
 $ npm run dev
 ```
 
-https://user-images.githubusercontent.com/77973084/164915295-fb799319-ec5c-4916-a5e0-00775f746c51.mp4
+### Note 
+
+* You will need 2 metamask accounts, first for sending and second for approving.
+* You can get Ropsten test ethreum from [here](https://faucet.egorfine.com/)
+* Remember gas fees, more about it from [here](https://ethereum.org/en/developers/docs/gas/)
+* Remember hiding your private info in a .env file
+  - For Example ```CONTRACT_ADDRESS = *YOUR PRIVATE KEY*;```
 
 
+https://user-images.githubusercontent.com/77973084/164916536-b9b04f20-8e66-4642-a29a-4de2e044f1a8.mp4
 
 ## Fork the repository
 If you want to contribute to this project make sure you fork it!
