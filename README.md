@@ -53,9 +53,6 @@ $ npm run dev
 
 https://user-images.githubusercontent.com/77973084/164916536-b9b04f20-8e66-4642-a29a-4de2e044f1a8.mp4
 
-## Fork the repository
-If you want to contribute to this project make sure you fork it!
-
 ## Deployment
 Connect to a [Vercel account](https://vercel.com) and read the documention on how to deploy your app.
 
